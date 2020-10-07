@@ -1,0 +1,428 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+body
+{  background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(20,104,124,1) 74%, rgba(0,212,255,1) 100%);
+    height:100vh;
+    margin: 0px;
+    padding: 0px;
+    font-family:sans-serif ;
+    
+
+}
+.login-box
+{
+    width: 300px;
+    background-color: rgb(181, 243, 240);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    font-family: sans-serif;
+    transform: translate(-50%,-50%);
+    border: 4px solid skyblue;
+     
+    
+}
+.loginw-box
+{
+    width: 300px;
+    padding-bottom: 100px;
+    background-color: rgb(181, 243, 240);
+    margin: auto;
+   
+    border: 4px solid skyblue;
+     
+    
+}
+.box{
+  
+    
+    border: 4px solid skyblue;
+
+}
+.login-box h1
+{
+    
+    float: left;
+    font-size: 40px;
+    margin: 20px;
+    padding: 20px;
+    color: rgb(23, 88, 114);
+}
+.login-box h4{
+    
+    margin: 20px;
+    padding: 20px;
+    color: rgb(23, 88, 114);
+
+}
+.text-box{
+   
+    margin: 10px;
+    padding: 10px;
+    font-size: 15px;
+    
+  
+    
+}
+.pass-box{
+
+    margin: 20px;
+    font-size: 15px;
+    color: rgb(23, 88, 114);
+
+   
+    
+}
+.signin input{
+   
+
+   margin-left: 40px;
+   height:30px;
+   background-color:skyblue;
+   font-style:sans;
+   width:100px;
+   margin-bottom: 30px;
+   color:rgb(23, 88, 114);
+}
+.member{
+     margin: 20px;
+    font-size: 15px;
+    color: rgb(23, 88, 114);
+
+}
+.signin input{
+    margin-left: 20px;
+    height:30px;
+    background-color:skyblue;
+    font-style:sans;
+    width:150px;
+    margin-bottom: 30px;
+    color:rgb(23, 88, 114);
+
+}
+.textpass-box input {
+    margin-left: 20px;
+    width:50px;
+
+}
+
+.btn{
+    width:200px;
+    height:40px;
+    margin-bottom: 30px;
+    border-radius: 20px;
+    border:2px solid rgb(8, 57, 80);
+    margin-left: 30px;
+    color:rgb(23, 12, 83);
+    
+}
+.btn:hover{
+    background-color: rgb(23, 88, 114);
+}
+.company-box input{
+    width: 250px;
+    height: 20px;
+    margin-left: 20px;
+    margin-bottom: 20px;
+    
+   
+}
+.navi{
+    background-color: white;
+    height:80px;
+    width:100%;
+    display: flex;
+    align-items: center;
+
+}
+.navi img{
+    float: left;
+    margin-left:20px;
+    height:80px;
+    width:150px;
+
+}
+.left{
+    float:left;
+}
+.right{
+    float:right;
+    margin-left:22%;
+}
+.left li,.right li{
+    list-style: none;
+    margin:10px;
+    display:inline-block;
+    line-height:80px;
+}
+.left li a,.right li a{
+    text-decoration: none;
+    color:rgb(23, 88, 114);
+    font-size: 20px;
+    font-family: 'Roboto',sans-serif;
+    font-weight:bold;
+}
+.main h1{
+    color:white;
+    text-align: center;
+    font-size: 66px;
+    margin-left: 150px;
+    margin-right: 150px;
+    margin-top:100px ;
+
+}
+.main h3{
+
+    color:white;
+    text-align: center;
+}
+.login-box h1{
+    text-align: center;
+}
+.inside{
+    display: flex;
+    float: left;
+}
+.btno{
+    display: flex;
+    margin-left: 300px;
+    width: 350px;
+    height:50px;
+
+}
+.btnor{
+    display: flex;
+    margin-left: 5px;
+    width: 350px;
+    height:50px;
+
+}
+.names h1{
+    margin-top: 40px;
+}
+.names h3{
+    margin-left: 200px;
+}
+
+.white a{
+    margin-left: 100px;
+    color: white;
+    
+}
+.names img{
+   padding-top: 20px;
+    
+    
+}
+.white h2{
+    color: white;
+    text-align: center;
+    font-size: 60px;
+}
+.btnorq{
+    background-color:rgb(23, 88, 114); 
+    color: white;
+}
+.white img{
+    margin-left: 100px;
+    
+
+}
+.dodo img{
+    margin-left: 90px;
+  
+}
+.dodo h2{
+    color: white;
+    text-align: center;
+    font-size: 60px;
+}
+.dodo h4{
+    font-size: 20px;
+    text-align:center;
+    color: white;
+}
+.dodo h3{
+   
+        color: white;
+        text-align: center;
+        margin-left: 100px;
+        font-size: 40px;
+        
+    
+}
+.btnorq{
+    width:100px;
+    height:50px;
+    margin-bottom: 30px;
+    
+    border:2px solid rgb(8, 57, 80);
+   font-size: 20px;
+    color:white;
+    
+}
+.btnorq:hover{
+    background-color: rgb(23, 88, 114);
+}
+.didi a{
+    margin-left: 50px;
+    color: white;
+    
+}
+.didi img{
+    margin-left: 300px;
+}
+.didi h2{
+    color: white;
+    text-align: center;
+    font-size: 40px;
+    border-bottom:2px solid white;
+
+}
+.didi h4{
+    color: white;
+    text-align: center;
+    font-size: 20px;
+    
+}
+.didi h3{
+    color: white;
+    text-align: center;
+    font-size:30px;
+    
+}
+.mon  {
+    border-bottom: white;
+    text-align: left;
+    border-bottom:1px solid white;
+}
+.mon  img{
+    margin-left: 440px;
+    text-align: center;
+}
+
+.dodo h2{
+    border-bottom: 2px solid white;
+}
+.names h1{
+    border-bottom: 2px solid white;
+}
+.white h2{
+    border-bottom: 2px solid white;
+}
+.didi a{
+  
+    color: white;
+    
+    
+}
+.animated h1{
+    border-bottom: 2px solid white;
+
+}
+.bro h2,h3{
+    color: white;
+    float: left;
+    margin-left: 100px;
+
+}
+.bro img{
+    margin-left: none;
+}
+.btnoh{
+    width:460px;
+    height:50px;
+    margin-bottom: 30px;
+    
+    border:2px solid rgb(8, 57, 80);
+   font-size: 20px;
+    color:rgb(53, 5, 141);
+    
+}
+.btnoh:hover{
+    background-color: rgb(23, 88, 114);
+}
+.kuch h4,h1{
+    margin-top:10px;
+    text-align: center;
+    color: white;
+  
+}
+.k h1{
+    color: white;
+    margin-left: 100px;
+    text-align: center;
+    border-bottom:1px solid white;
+}
+.k ul a{
+    text-align: center;
+    margin-left: 400px;
+    color: white;
+    font-size: 30px;
+}
+.kk h1{
+    color: white;
+    margin-left: 100px;
+    text-align: center;
+    border-bottom:1px solid white;
+
+}
+.kk ul a{
+    text-align: center;
+    margin-left: 400px;
+    color: white;
+    font-size: 30px;
+}
+.names h2{
+    margin-left: 100px;
+    color: white;
+    text-align: center;
+}
+.mn h3{
+    margin-left: 400px;
+    text-align: center;
+    color: white;
+    border-bottom: 1px solid white;
+}
+.mn h1{
+    margin-top: 20px;
+    padding-top: 50px;
+    text-align: center;
+    color: white;
+    font-size: 50px;
+}
+.btnorq1{
+    width:460px;
+    height:50px;
+    margin-bottom: 30px;
+    margin-left: 500px;
+    border:2px solid rgb(8, 57, 80);
+   font-size: 20px;
+    color:rgb(53, 5, 141);
+    
+}
+.btnorq1:hover{
+    background-color: rgb(23, 88, 114);
+}
+.mn form{
+    height: 50px;
+    width:400px;
+    color: white;
+    margin-left: 600px;
+    font-size: 30px;
+}
+.mn a{
+    color: white;
+}
+.broken h1{
+    margin-left:550px
+    color: white;
+    text-align: center;
+    padding: 90px;
+
+}
+
+
+
+
+
